@@ -54,8 +54,15 @@ Text Domain:  accelerate-theme-child
 
 .case-study-sidebar,
 .case-study-img-container {
-    width: 50%;
     margin: 2rem;
+}
+
+.case-study-img-container {
+    width: 60%;
+}
+
+.case-study-sidebar {
+    width: 40%;
 }
 
 img {
