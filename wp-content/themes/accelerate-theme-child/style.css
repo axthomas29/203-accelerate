@@ -46,3 +46,18 @@ Text Domain:  accelerate-theme-child
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+.case-study {
+    display: flex;
+    flex-direction: row;
+}
+
+.case-study-sidebar,
+.case-study-img-container {
+    width: 50%;
+    margin: 2rem;
+}
+
+img {
+    max-width: 100%;
+}
