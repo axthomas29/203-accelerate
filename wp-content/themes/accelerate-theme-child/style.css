@@ -97,3 +97,29 @@ img {
     color: inherit;
     text-transform: none;
 }
+
+div.case-study-images img {
+    width: 100%;
+    height: auto;
+}
+
+.case-study-sidebar h2 {
+    margin-bottom: 0;
+}
+
+.case-study-sidebar h2 a {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.case-study-sidebar h5 {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 0;
+    color: #909090;
+}
+
+.case-study-sidebar p a {
+    color: #45ac9d;
+}
