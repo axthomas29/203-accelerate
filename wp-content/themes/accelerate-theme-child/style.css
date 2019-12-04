@@ -125,6 +125,10 @@ div.case-study-images img {
   color: #45ac9d;
 }
 
+#primary.site-content.sidebar.case-studies-container {
+  width: 100%;
+}
+
 .social-media-navigation {
   margin: 0;
   width: initial;
