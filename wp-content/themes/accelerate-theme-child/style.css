@@ -11,144 +11,179 @@ Text Domain:  accelerate-theme-child
 */
 
 .home-page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-    text-align: center;
+  background: url('img/taxi-photo.jpg') no-repeat scroll right center / cover
+    rgba(0, 0, 0, 0);
+  text-align: center;
 }
 
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 #45ac9d;
 }
 
 .button {
-    background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 #45ac9d;
 }
 
 .blog-post {
-    width: 50%;
-    float: left;
-    margin-bottom: 2em;
+  width: 50%;
+  float: left;
+  margin-bottom: 2em;
 }
 
 .blog-post h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    color: #a6a6a6;
-    text-transform: uppercase;
-    margin: 2em 0 .5em;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 0.5em;
 }
 
 .blog-post h3 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 .read-more-link {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    color: #45ac9d;
-    text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
 }
 
 .case-study {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .case-study-sidebar,
 .case-study-img-container {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 .case-study-img-container {
-    width: 60%;
+  width: 60%;
 }
 
 .case-study-sidebar {
-    width: 40%;
+  width: 40%;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .featured-work {
-    text-align: center;
-    margin-bottom: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .homepage-featured-work {
-    list-style-type: none;
-    margin: 0 auto;
+  list-style-type: none;
+  margin: 0 auto;
 }
 
 .featured-work h4 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .individual-featured-work {
-    text-align: center;
+  text-align: center;
 }
 
 .individual-featured-work h3 {
-    margin: 0;
-    margin-top: 0.75rem;
-    font-size: 1rem;
+  margin: 0;
+  margin-top: 0.75rem;
+  font-size: 1rem;
 }
 
 .individual-featured-work .read-more-link {
-    color: inherit;
-    text-transform: none;
+  color: inherit;
+  text-transform: none;
 }
 
 div.case-study-images img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .case-study-sidebar h2 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .case-study-sidebar h2 a {
-    font-size: 1.5rem;
-    font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .case-study-sidebar h5 {
-    text-transform: none;
-    font-weight: 400;
-    font-size: 0.9rem;
-    margin: 0;
-    color: #909090;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin: 0;
+  color: #909090;
 }
 
 .case-study-sidebar p a {
-    color: #45ac9d;
+  color: #45ac9d;
 }
 
 .social-media-navigation {
-    margin: 0;
-    width: initial;
+  margin: 0;
+  width: initial;
 }
 
 #menu-social-media-nav {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-item-type-custom {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 1.4rem;
-    background-color: #3b3b3b;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  background-color: #3b3b3b;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
 }
 
 i {
-    color: #fff;
+  color: #fff;
 }
 
 .site-description p {
-    margin-top: 0;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+#primary.site-content.sidebar {
+  width: 40%;
+}
+
+.nf-form-fields-required,
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+#nf-field-1-container,
+#nf-field-2-container {
+  width: 50%;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+#nf-field-1-container {
+  padding-right: 0.5rem;
+}
+
+#nf-field-2-container {
+  padding-left: 0.5rem;
+}
+
+#nf-field-4 {
+  float: right;
+  width: 30%;
+  background-color: #45ac9d;
 }
