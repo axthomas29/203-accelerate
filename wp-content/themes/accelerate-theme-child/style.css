@@ -191,3 +191,14 @@ h2 {
   width: 30%;
   background-color: #45ac9d;
 }
+
+.hero-about-container {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.hero-about-container h2 {
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+}
