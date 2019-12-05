@@ -27,7 +27,7 @@
             <h2><?php the_title(); ?></h2>
             <p><?php the_content(); ?></p>
         </div>
-        <div class="service-container">
+        <div class="service-container icon-left">
             <div class="service-description">
                 <h3><?php echo $title_1 ?></h3>
                 <p><?php echo $description_1 ?></p>
@@ -49,7 +49,7 @@
                     } ?>
             </figure>
         </div>
-        <div class="service-container">
+        <div class="service-container icon-left">
             <div class="service-description">
                 <h3><?php echo $title_3 ?></h3>
                 <p><?php echo $description_3 ?></p>
