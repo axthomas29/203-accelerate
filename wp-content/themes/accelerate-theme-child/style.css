@@ -201,3 +201,26 @@ h2 {
   color: #fff;
   font-weight: 400;
 }
+
+.about-container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-description {
+  width: 75%;
+}
+
+.service-description h3 {
+  margin: 0;
+}
+
+figure {
+  width: 25%;
+}
