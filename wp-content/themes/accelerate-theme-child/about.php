@@ -73,7 +73,7 @@
         </div>
         <div class="call-to-action">
             <h2>Interested in working for us?</h2>
-            <a class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
+            <a id="contact-button" class="button" href="<?php echo site_url('/contact-us/') ?>">Contact Us</a>
         </div>
     <?php endwhile; // end of the loop. 
     ?>
