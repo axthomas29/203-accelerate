@@ -30,6 +30,20 @@ function create_custom_post_types()
 			),
 		)
 	);
+
+	register_post_type(
+		'our_services',
+		array(
+			'labels' => array(
+				'name' => __('Our Services'),
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array(
+				'slug' => 'our-services'
+			),
+		)
+	);
 }
 
 // Hook this custom post type function into the theme
