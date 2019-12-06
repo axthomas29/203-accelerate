@@ -313,3 +313,8 @@ h2 {
 .error-message-container p span {
   color: #FF69B4;
 }
+
+.error-message-container p a {
+  text-decoration: underline;
+  font-weight: 800;
+}
