@@ -11,7 +11,8 @@ Text Domain:  accelerate-theme-child
 */
 
 .home-page {
-  background: url('img/taxi-photo.jpg') no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  background: url('img/taxi-photo.jpg') no-repeat scroll right center / cover
+    rgba(0, 0, 0, 0);
   text-align: center;
 }
 
@@ -303,18 +304,29 @@ h2 {
 
 .error-message-container h2 {
   line-height: 2rem;
+  font-weight: 400;
 }
 
 .error-message-container h3 {
   margin-top: 1rem;
   color: #a0356d;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+  text-decoration: underline;
 }
 
 .error-message-container p span {
-  color: #FF69B4;
+  color: #ff69b4;
+  font-family: 'Calistoga', cursive;
+  font-size: 1rem;
 }
 
 .error-message-container p a {
-  text-decoration: underline;
   font-weight: 800;
+}
+
+.fyi {
+  font-size: 0.9rem;
+  margin: 0;
 }

@@ -26,8 +26,8 @@ get_header(); ?>
         <div class="error-message-container">
             <h2>Whoops you landed in the wrong school...</h2>
             <h3>THAT IS SO FETCH!</h3>
-            <p>But seriously... Feel free to leave and head towards our <a href="<?php the_permalink(); ?>">blog</a>.</p>
-            <p>Remember...<br>On Wednesdays we wear <span>pink!</span></p>
+            <p>But seriously... Feel free to leave and head towards our <a href="<?php echo site_url('/blog/') ?>">blog</a>.</p>
+            <p class="fyi">(Remember...On Wednesdays we wear <span>pink!</span>)</p>
         </div>
     </div><!-- .main-content -->
 </div><!-- #primary -->
