@@ -30,7 +30,8 @@ Text Domain:  accelerate-theme-child
   margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.blog-post h4,
+.twitter-widget h4 {
   font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
@@ -329,4 +330,26 @@ h2 {
 .fyi {
   font-size: 0.9rem;
   margin: 0;
+}
+
+.widget-title {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+#front-page-content {
+  display: flex;
+}
+
+.widget-area {
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.twitter-widget h4 {
+  margin-left: 3em;
 }
