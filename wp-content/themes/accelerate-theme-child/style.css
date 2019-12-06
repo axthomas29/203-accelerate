@@ -283,3 +283,33 @@ h2 {
 .service-container.icon-left h3 {
   padding-left: 2rem;
 }
+
+#error-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.error-message-container {
+  text-align: center;
+}
+
+.error-message-container h2,
+.error-message-container h3 {
+  margin: 0;
+}
+
+.error-message-container h2 {
+  line-height: 2rem;
+}
+
+.error-message-container h3 {
+  margin-top: 1rem;
+  color: #a0356d;
+}
+
+.error-message-container p span {
+  color: #FF69B4;
+}
