@@ -79,6 +79,9 @@ img {
 .homepage-featured-work {
   list-style-type: none;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .featured-work h4 {
@@ -87,6 +90,7 @@ img {
 
 .individual-featured-work {
   text-align: center;
+  margin: 1rem;
 }
 
 .individual-featured-work h3 {
