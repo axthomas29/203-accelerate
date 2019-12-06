@@ -353,3 +353,11 @@ h2 {
 .twitter-widget h4 {
   margin-left: 3em;
 }
+
+#sidebar h2 {
+  font-size: 1.25rem;
+}
+
+#sidebar .widget {
+  padding: 0;
+}
